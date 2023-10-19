@@ -18,6 +18,12 @@ public class Aula implements Comparable<Aula> {
     }
 
     @Override
+    public boolean equals(Object obj) {
+        Aluno outroAluno = (Aluno) obj;
+        return this.nome.equals(outroAluno.nome);
+    }
+
+    @Override
     public String toString() {
         return "[Aula: " + this.titulo + ", " + this.tempo + " minutos]";
     }
