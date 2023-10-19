@@ -5,7 +5,7 @@ import java.util.Comparator;
 
 import com.andrepaulino.gerenciador_cursos.Aula;
 
-public class TestaListaDeAulas {
+public class TesteListaDeAulas {
 
     public static void main(String[] args) {
 
